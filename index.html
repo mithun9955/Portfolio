@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/aae174d95e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<div id="header">    
+    <div class="container">
+        <nav>
+            <img src="image/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Project</a></li>
+             <!----   <li><a href="#portfolio">Portfolio</a></li> --->
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i> 
+        </nav>
+        <div class="header-text">
+            <p>Full Stack Developer</p>
+            <h1>I am <span>Mithun Kumar Gupta</span></h1>
+            <p>Looking to start the career as an entry-level software engineer with a reputed firm driven by
+                technology. Strong in design and integration with intuitive problem-solving skills. Passionate about
+                implementing and launching new projects. </p>
+        </div>
+    </div>
+</div>
+<!-------------about------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="image/me.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                    <p>Hello, I'm Mithun Kumar Gupta , a recent MCA (Master of Computer Applications) graduate with a passion for technology and a strong foundation in software development. 
+                        I'm excited to embark on my journey in the world of IT, where I aspire to contribute my skills, creativity, 
+                        and dedication to solving complex problems and driving innovation.</p>
+
+                    <p>During my MCA program, I had the privilege of delving into a wide range of computer science disciplines,
+                        from programming and data structures to database management and web development. This educational journey has not only equipped me with a robust
+                        technical skill set but has also instilled in me a deep appreciation for the power of technology to transform industries and improve lives.</p>
+
+                    <p>Programming Languages : I'm proficient in languages such as Java, Python, and C++, and I enjoy tackling coding challenges.
+
+                        <p>Problem Solving : I thrive on solving intricate problems and have a logical and analytical mindset.</p>
+                        
+                        <p>Team Player : I'm a collaborative team player, always eager to learn from others and share my knowledge.</p>
+                        
+                        <p>Adaptability : I'm quick to adapt to new technologies and environments, which allows me to stay ahead in the ever-evolving tech landscape.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Certificates</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Programming Language :</span><br>Core Java | Python | C++</li>
+                            <li><span>Web Designing/Framework :</span><br>Familiar with HTML, CSS, JavaScript, and front-end frameworks (e.g., Angular, Django)</li>
+                            <li><span>Database Management :</span><br>Experience with SQL and Database Design</li>
+                            <li><span>Software Development :</span><br>Knowledge of software development methodologies and best practices</li>
+                            <li><span>Interpersonal Skills :</span><br>Time Management | Flexible | Focused | Dedicated | Adaptable</li>
+                            <li><span>Teamwork :</span><br>Collaborative and effective in team projects</li>
+                            <li><span>Communication :</span><br> Strong verbal and written communication skills</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul> 
+                            <li><span>2023(10-Day Workshop)</span><br>DXC Technology and NASSCOM Foundation</li>
+                            <li><span>2022</span><br>Qualified TCS NQT Exam with 72%</li> 
+                            <li><span>2021</span><br>On-the-Job-Training for project at MCIT, Deoghar</li>
+                            <li><span>2021(45 Days Program)</span> <br>TCS Empower (Youth Employment Program)</li>
+                            
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021-2023 | MCA</span><br>Loyola Academy Degree & PG College, Hyderabad</li>
+                            <li><span>2018-2021 | BCA</span><br>Sido Kanhu Murmu University, Dumka</li>
+                            <li><span>2016-2018 | PCM</span><br>S. D. M. Y. College, Dhoraiya, Banka</li>
+                            <li><span>2016</span><br>High School, Dhoraiya, Banka</li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>    
+
+<!-------------Services--------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Project</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-brands fa-java"></i>
+                <h2>Data Trust Framework using BlockChain Technology</h2>
+                <p>This is my Major Project Data Trust Framework Using Blockchain Technology and Adaptive Transaction Validation 
+                    with JAVA while doing my MCA.The project demonstrates both my technical proficiency in JAVA
+                    programming and my capacity to create workable solutions. I am pleased of developing a cutting-edge 
+                    technology that improves networking and community involvement. Using: HTML5, CSS3, JavaScript, MySQL, JSP etc.</p>
+                <a href="https://github.com/mithun9955/Data-Trust-Framework-Using-Blockchain-Technology-and-Adaptive-Transaction-Validation">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-python"></i>
+                <h2>Hand Gesture Control for Hill Climbing Game</h2>
+                <p>This is my Mini Project for MCA third Semester and I had used python programming language. This 
+                    project is basically used Hand recognition technique by using Machine learning where you can control 
+                    left and right key of your keyboard from your Hand Gesture. Without use of keyboard user can play 
+                    virtually help of hand gesture. I developed a simple yet effective control that enhances the overall user 
+                    experience.</p>
+                <a href="https://github.com/mithun9955/Hand-Gesture-Control-for-Hill-Climbing-Game">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-php"></i>
+                <h2>Hospital Management System</h2>
+                <p>This is my Final year project of BCA. The Hospital Management System, created with PHP, HTML, 
+                    CSS, and JavaScript, along with a MySQL database, simplifies hospital tasks. It helps with patient 
+                    records, appointment scheduling, billing, medicine tracking, and more. Doctors can view test results and 
+                    manage their schedules. It's like a digital helper that makes hospitals run smoother.</p>
+                <a href="https://github.com/mithun9955/Hospital-management-system">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!---------------Protfolio---------
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="image//me.jpg">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>Observers have noted a wide range of positive and negative impacts when
+                        it comes to the use of social media. Social media can help to improve an individual's sense of connectedness with real or online communities and can be an
+                        effective communication (or marketing) tool for corporations, entrepreneurs, non-profit
+                        organizations, advocacy groups, political parties, and governments. Observers have also
+                        seen that there has been a rise in social movements using social media as a tool for 
+                        communicating and organizing in times of political unrest.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="image//me.jpg">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>Observers have noted a wide range of positive and negative impacts when
+                        it comes to the use of social media. Social media can help to improve an individual's sense of connectedness with real or online communities and can be an
+                        effective communication (or marketing) tool for corporations, entrepreneurs, non-profit
+                        organizations, advocacy groups, political parties, and governments. Observers have also
+                        seen that there has been a rise in social movements using social media as a tool for 
+                        communicating and organizing in times of political unrest.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="image//me.jpg">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>Observers have noted a wide range of positive and negative impacts when
+                        it comes to the use of social media. Social media can help to improve an individual's sense of connectedness with real or online communities and can be an
+                        effective communication (or marketing) tool for corporations, entrepreneurs, non-profit
+                        organizations, advocacy groups, political parties, and governments. Observers have also
+                        seen that there has been a rise in social movements using social media as a tool for 
+                        communicating and organizing in times of political unrest.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>---------->
+
+<!----------------contact us-------------->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> mithunkumargupta786@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i> 9955141742</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/mithungupta99/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/mithun9955"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.facebook.com/mithunkumar.kassmora"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/it_mithun"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="https://www.instagram.com/mithun_gupta9955/"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a href="image/Mithun_Kumar_Gupta.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <sapn id="msg"></sapn>
+            </div>
+        </div>
+    </div>
+    <div class="cpoyright">
+        <p>Copyright <i class="fa-regular fa-copyright"></i> Mithun Kumar Gupta <i class="fa-solid fa-thumbs-up"></i> 2023 </p>
+    </div>
+</div>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link"); 
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+
+</script>
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxGYOOVDiEHP0mLiU4bOmUKvJoXq66Q4yZOuWXA4la_0tF29EXYOgPkRl8zcTTuN9s/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message Sent Successfully!!"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
